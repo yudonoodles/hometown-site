@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+}
+
+/* Hero section  */
+
+#hero {
+    background-image: url("/Images/hero.jpg");
+    background-size: cover;
+    padding: 100px 80px 100px 80px;
+    color: black;
+    position: relative;
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Font */
+
+h1 {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight:200;
+    font-size:200px;
+    text-shadow: 0px 0px 1px black;
+    align-items: left;
+    color: #853232;
+    margin: 0 0 100px 0;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 0 0 36px 0;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 200px;
+    margin: 0;
+    color:#BC4E4E;
+}
+
+p {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+    color: #1e1e1e;
+}
+
+/* Content divs */
+
+#hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#text-right {
+    text-align: right;
+    font-size: large;
+    font-family: "Playwrite CU", cursive; 
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #2B4F33;
+}
+
+/* Act section with image */
+
+.section-light {
+    background-color: #FEF8EC;
+    display: flex;
+    padding: 100px 200px;
+    gap: 80px;
+    align-items: start;
+}
+
+#section-dark {
+    background-color: #F2E8CF;
+    display: flex;
+    padding: 100px 200px;
+    gap: 80px;
+}
+
+/* Image manipulations */
+
+#img-unique {
+    width: 400px;
+    height: auto;
+    border-radius: 0px 40px 80px 20px;
+}
+
+#img-arch {
+    width: 400px;
+    height: auto;
+    border-radius: 100px 100px 0px 0px;
+
+}
+.img-round {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+img {
+    width: 400px;
+    height: auto;    
+}
+
+#img-lg {
+    width: 600px;
+    height: auto;
+}
