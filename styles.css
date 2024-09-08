@@ -1,13 +1,3 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
     font-family: "Nanum Myeongjo", serif;
     font-weight: 400;
@@ -59,11 +49,11 @@ p {
 
 /* Content divs */
 
-#hero-content {
+/* #hero-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 #text-right {
     text-align: right;
